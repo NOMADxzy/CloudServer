@@ -4,6 +4,7 @@
 
 ## Quick Start
 
+### 一、启动本项目
 ```shell
 # 导入mysql数据库结构
 create table cloud
@@ -23,7 +24,16 @@ var connection = mysql.createConnection({
 npm install
 
 # 运行项目
-$ node app.js # 开发环境
+$ node app.js # 仅开发环境
 ```
+### 二、[启动前端](https://github.com/NOMADxzy/Cloud)
 
-![图片太帅、无法显示](preview.png)
+## Preview
+
+![图片太帅、无法显示](doc/preview.png)
+*音乐*
+![图片太帅、无法显示](doc/preview1.png)
+*图片*
+![图片太帅、无法显示](doc/preview2.png)
+*视频*
+![图片太帅、无法显示](doc/preview3.png)

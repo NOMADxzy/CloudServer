@@ -574,7 +574,7 @@ app.post('/signup',function(req,res,next){
     let datestr = getDateStr();
     sql_str="insert into pri_files values ('51f2b07b03f99877c037c551dd3a2f58','"+username+"','/public/uploads/51f2b07b03f99877c037c551dd3a2f58.mp4','"+datestr+"',0,0,'');"
     console.log(sql_str);
-    connection.query(sql_str,(err,res)=>{
+    connection.query(sql_str,(err,_)=>{
       if(err) throw err;
       res.status(200).send();
       return;
